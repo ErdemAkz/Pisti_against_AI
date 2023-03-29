@@ -9,10 +9,9 @@ if you want to run in terminal:
 Program Args:
 
 starting from line 384:
+
 	see_AI = 1       see AI hand                          0 off - 1 on 
-	
 	simulation = 0   AI plays against random card player  0 off - 1 on
-	
 	game_count = 1000  how many games you want to simulate
 
 
@@ -24,7 +23,7 @@ Also if you want to see the AI hand it's possible to do so with setting see_AI p
 
 How to play:
 	
-	Depending on how many cards you have type 1-4 and you will play the "n"th card in your hand.
+Depending on how many cards you have type 1-4 and you will play the "n"th card in your hand.
 	
 AI	? ? ? 
 	♣Q 
