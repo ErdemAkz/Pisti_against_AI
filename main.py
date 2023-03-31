@@ -238,7 +238,7 @@ class Game:
 
         for i in range(len(self.AI_hand)):
             hand_card_value = str(Card.values[getattr(self.AI_hand[i], 'value')])
-            if hand_card_value == "J":
+            if hand_card_value == "J" and last_card_on_table.value != None:
                 return i
 
         count_values = []
